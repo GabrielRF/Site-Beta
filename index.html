@@ -68,8 +68,11 @@
 							<h2>Zabbix</h2>
 							<p>Monitoring</p>
 						</header>
-						<p>Zabbix is the ultimate enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices.</p>
-						<p>Zabbix is Open Source and comes at no cost.</p>
+						<p>Zabbix is the ultimate enterprise-level software designed for real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices. Zabbix is Open Source and comes at no cost.</p>
+						<p>As an experienced user, I've created a few scripts to improve daily usage.</p>
+						<ul class="actions">
+							<li><a href="#zabbixprojects" class="button">Zabbix projects</a></li>
+						</ul>
 						<ul class="actions">
 							<li><a href="https://zabbix.com/" class="button">Zabbix website</a></li>
 						</ul>
@@ -85,6 +88,9 @@
                                                         <p>Hardware and Software</p>
                                                 </header>
                                                 <p>Arduino is an open-source prototyping platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. All this is defined by a set of instructions programmed through the Arduino Software (IDE).</p>
+						<ul class="actions">
+							<li><a href="#arduinoprojects" class="button">Arduino projects</a></li>
+						</ul>
                                                 <ul class="actions">
                                                         <li><a href="https://www.arduino.cc/" class="button">Arduino website</a></li>
                                                 </ul>
@@ -188,30 +194,39 @@
 							<h2>Zabbix projects</h2>
 							<div class="row gtr-50 gtr-uniform">
 								<div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/zabbixtelegram.jpg" alt="" /></span></div>
-								<div class="col-8 col-6-medium col-12-xsmall">
+								<div class="col-4 col-6-medium col-12-xsmall">
 									<h3>Telegram messaging</h3>
 									<p>By default, Zabbix Servers are able to send e-mails when a trigger occurs. Daily usage showed this is not a good way to be warned. Something faster were necessary. Something that DevOps/SysAdmins would check more often, like instant messaging apps.</p>
 									<p>To fulfill all these needs, I've developed a solution using Python and Telegram Bots API. It sends a text message everytime a trigger happens, allowing the team to take action as soon as possible.</p>
 									<h2><a href="https://github.com/GabrielRF/Zabbix-Telegram-Notification" class="icon brands alt fa-github"><span class="label">GitHub</span></a></h2>
+								</div>
+								<div class="col-4 col-6-medium col-12-xsmall">
+									<h3>WebScenario automatic creation</h3>
+									<p>This is a simple shell script to add web scenarios to a host. It checks if a website is returning code 200 and a string.</p>
+									<p>It was developed to assist a SysAdmin team to automatically add a trigger when a new website is deployed. This way the team acknoledges on real time when a problem is happening, allowing the response team to fix errors before the user notices them.</p>
+									<h2><a href="https://github.com/GabrielRF/Shell-Zabbix-WebScenario/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></h2>
+								</div>
+								<div class="col-4 col-6-medium col-12-xsmall">
+									<h3>Imap login checker</h3>
 								</div>
 							</div>
 						</header>
 					</div>
 					<!-- <a href="#arduinoprojects" class="goto-next scrolly">Next</a> -->
 				</section>
-                                <section id="zabbixprojects" class="wrapper style1 special fade-up">
+                                <section id="arduinoprojects" class="wrapper style1 special fade-up">
                                         <div class="container">
                                                 <header>
                                                         <h2>Arduino projects</h2>
                                                         <div class="row gtr-50 gtr-uniform">
-                                                                <div class="col-8 col-12-medium col-12-xsmall">
+                                                                <div class="col-4 col-6-medium col-12-xsmall">
                                                                         <h3>Gabuino</h3>
                                                                         <p>Zabbix Agent running on Arduino to monitor data center environments.</p>
                                                                         <p>It's a small device made using open hardware and open software. It gathers data from the environment and send it to a Zabbix Server, allowing the infrastructure team to acknoledge everything that is happening on real time.</p>
                                                                         <h2><a href="https://github.com/GabrielRF/Arduino-Zabbix-Agent" class="icon brands alt fa-github"><span class="label">GitHub</span></a></h2>
                                                                 </div>
-								<div class="col-4 col-12-medium col-12-xsmall"><span class="image fit"><img src="images/ArduinoSketch.png" alt="" /></span></div>
-								<div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/GabuinoTop.jpg" alt="" /></span></div>
+								<!-- <div class="col-4 col-12-medium col-12-xsmall"><span class="image fit"><img src="images/ArduinoSketch.png" alt="" /></span></div> -->
+								<!-- <div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/GabuinoTop.jpg" alt="" /></span></div> -->
 								<div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/GabuinoPorts.jpg" alt="" /></span></div>
 								<div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/arduinozabbix.png" alt="" /></span></div>
                                                         </div>
