@@ -4109,3 +4109,11 @@ input, select, textarea {
 					}
 
 	}
+
+@media only screen and (max-width : 52.501em) {
+  .hide-on-med-and-down {
+display: none !important; } }
+
+@media only screen and (min-width : 52.500em) {
+  .hide-on-large-only {
+display: none !important; } }

@@ -125,20 +125,24 @@
                                                                         <h3>ControlID to Telegram</h3>
                                                                         <p>ControlID to Telegram is a Docker Container that sends a text message everytime a door is opened.</p>
 									<p>It works on a ControlID IDFlex and on Telegram Messaging app.</p>
+								</div>
+								<div class="col-12">
                                                                         <ul class="icons col-6">
 										<li><a href="https://github.com/GabrielRF/ControlID2Telegram" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="https://hub.docker.com/r/gabrielrf/controlid2telegram" class="icon brands alt fa-docker"><span class="label">DockerHub</span></a></li>
 									</ul>
                                                                 </div>
-                                                                <div class="col-12">
+                                                                <!-- <div class="col-12">
                                                                         <h3>Alohomora</h3>
-							        </div>
+								</div> -->
+								<div class="hide-on-large-only col-6 col-6-medium col-12-xsmall"><span class="image fit"><img src="https://raw.githubusercontent.com/GabrielRF/Alohomora/master/img/alohomora.gif" alt="" /></span></div>
                                                                 <div class="col-6 col-6-medium col-12-xsmall">
+									<h3>Alohomora</h3>
 
                                                                         <p>Alohomora is a Docker Container that opens a door if movement is detected.</p>
                                                                         <p>In other words, it watches a folder where a CFTV camera saves video files and, if a video is created, the container sends a command to open the door.</p>
 								</div>
-								<div class="col-6 col-6-medium col-12-xsmall"><span class="image fit"><img src="https://raw.githubusercontent.com/GabrielRF/Alohomora/master/img/alohomora.gif" alt="" /></span></div>
+								<div class="hide-on-med-and-down col-6 col-6-medium col-12-xsmall"><span class="image fit"><img src="https://raw.githubusercontent.com/GabrielRF/Alohomora/master/img/alohomora.gif" alt="" /></span></div>
 								<div class="col-12">
 								        <ul class="icons col-12">
                                                                                 <li><a href="https://github.com/GabrielRF/Alohomora" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
@@ -152,6 +156,8 @@
                                                                         <p>This docker container checks if a new file is created on a folder and sends it to a person/group/channel using Telegram Messenger.</p>
                                                                         <p>The idea behind this project is to send me a gif everytime my camera detects movement. The camera is pointed to my door, this way I can see on real time who is entering or leaving my place. Also, another unexpected benefit of using this project is to have a cloud backup of my camera for free.</p>
 									<p>A small variance of this container was made as a friend asked. It checks for a document on a folder instead of a video file. It's <a href="https://github.com/GabrielRF/Document2Telegram">available here</a>.</p>
+								</div>
+								<div class="col-12">
                                                                         <ul class="icons col-6">
                                                                                 <li><a href="https://github.com/GabrielRF/VideoD2Telegram" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                                                                                 <li><a href="https://hub.docker.com/r/gabrielrf/video2telegram" class="icon brands alt fa-docker"><span class="label">DockerHub</span></a></li>
@@ -259,20 +265,20 @@
 							<h2>Zabbix projects</h2>
 						</header>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-4 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/zabbixtelegram.jpg" alt="" /></span></div>
-							<div class="col-4 col-6-medium col-12-xsmall">
+							<div class="col-6 col-6-medium col-12-xsmall"><span class="image fit"><img src="images/zabbixtelegram.jpg" alt="" /></span></div>
+							<div class="col-6 col-6-medium col-12-xsmall">
 								<h3>Telegram messaging</h3>
 								<p>By default, Zabbix Servers are able to send e-mails when a trigger occurs. Daily usage showed this is not a good way to be warned. Something faster were necessary. Something that DevOps/SysAdmins would check more often, like instant messaging apps.</p>
 								<p>To fulfill all these needs, I've developed a solution using Python and Telegram Bots API. It sends a text message everytime a trigger happens, allowing the team to take action as soon as possible.</p>
 								<h2><a href="https://github.com/GabrielRF/Zabbix-Telegram-Notification" class="icon brands alt fa-github"><span class="label">GitHub</span></a></h2>
 							</div>
-							<div class="col-4 col-6-medium col-12-xsmall">
+							<div class="col-6 col-6-medium col-12-xsmall">
 								<h3>WebScenario automatic creation</h3>
 								<p>This is a simple shell script to add web scenarios to a host. It checks if a website is returning code 200 and a string.</p>
 								<p>It was developed to assist a SysAdmin team to automatically add a trigger when a new website is deployed. This way the team acknoledges on real time when a problem is happening, allowing the response team to fix errors before the user notices them.</p>
 								<h2><a href="https://github.com/GabrielRF/Shell-Zabbix-WebScenario/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></h2>
 							</div>
-							<div class="col-4 col-6-medium col-12-xsmall">
+							<div class="col-6 col-6-medium col-12-xsmall">
 								<h3>Imap login checker</h3>
 							</div>
 						</div>
